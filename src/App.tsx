@@ -3,9 +3,10 @@ import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Services } from "./components/services";
 import { Credentials } from "./components/credentials";
-import { Projects } from "./components/projects";
+import  ServiceArea  from "./components/serviceArea";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
+import './index.css';
 
 export const App: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ export const App: React.FC = () => {
       <Hero />
       <Services />
       <Credentials />
-      <Projects />
+      <ServiceArea />
       <Contact />
       <Footer />
     </div>
